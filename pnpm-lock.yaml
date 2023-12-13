@@ -23,7 +23,7 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^20
+    specifier: ^20.10.4
     version: 20.10.4
   '@types/react':
     specifier: ^18
@@ -32,22 +32,22 @@ devDependencies:
     specifier: ^18
     version: 18.2.17
   autoprefixer:
-    specifier: ^10.0.1
+    specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.32)
   eslint:
-    specifier: ^8
+    specifier: ^8.55.0
     version: 8.55.0
   eslint-config-next:
     specifier: 14.0.4
     version: 14.0.4(eslint@8.55.0)(typescript@5.3.3)
   postcss:
-    specifier: ^8
+    specifier: ^8.4.32
     version: 8.4.32
   tailwindcss:
-    specifier: ^3.3.0
+    specifier: ^3.3.6
     version: 3.3.6
   typescript:
-    specifier: ^5
+    specifier: ^5.3.3
     version: 5.3.3
 
 packages:
