@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@vercel/og':
-    specifier: ^0.6.4
-    version: 0.6.4
+    specifier: ^0.6.5
+    version: 0.6.5
   next:
     specifier: 15.1.5
     version: 15.1.5(react-dom@19.0.0)(react@19.0.0)
@@ -740,12 +740,12 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vercel/og@0.6.4:
-    resolution: {integrity: sha512-+IB8fYbVHEAtLfhCXSRS61Q/OfBJTaPCXhvGvXTBIUfs9lqZMDesZ2UnvKYbnEYHSMgCzBaj5BOq66iePl8mjw==}
+  /@vercel/og@0.6.5:
+    resolution: {integrity: sha512-GFXtgid3+TcVHTd668a10vGpzAh4Ty/yBZPRxKf1UicI8Vi8EthfvSxcaLW0KvQBBe1+d7TcjecLZHRT8JzQ4g==}
     engines: {node: '>=16'}
     dependencies:
       '@resvg/resvg-wasm': 2.4.0
-      satori: 0.12.0
+      satori: 0.12.1
       yoga-wasm-web: 0.3.3
     dev: false
 
@@ -2793,8 +2793,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /satori@0.12.0:
-    resolution: {integrity: sha512-e0e+qQyeFwEszujN7SpWpRtZgww7Nh8lSO3bUn2spHZ5JpqEl3zJ3P14/JlWruxEwdgREs35ZnavrPrWaRVFDg==}
+  /satori@0.12.1:
+    resolution: {integrity: sha512-0SbjchvDrDbeXeQgxWVtSWxww7qcFgk3DtSE2/blHOSlLsSHwIqO2fCrtVa/EudJ7Eqno8A33QNx56rUyGbLuw==}
     engines: {node: '>=16'}
     dependencies:
       '@shuding/opentype.js': 1.4.0-beta.0
