@@ -10,13 +10,13 @@ dependencies:
     version: 0.6.5
   next:
     specifier: 15.2.4
-    version: 15.2.4(react-dom@19.0.0)(react@19.0.0)
+    version: 15.2.4(react-dom@19.1.0)(react@19.1.0)
   react:
-    specifier: ^19.0.0
-    version: 19.0.0
+    specifier: ^19.1.0
+    version: 19.1.0
   react-dom:
-    specifier: ^19.0.0
-    version: 19.0.0(react@19.0.0)
+    specifier: ^19.1.0
+    version: 19.1.0(react@19.1.0)
   slugify:
     specifier: ^1.6.6
     version: 1.6.6
@@ -2355,7 +2355,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next@15.2.4(react-dom@19.0.0)(react@19.0.0):
+  /next@15.2.4(react-dom@19.1.0)(react@19.1.0):
     resolution: {integrity: sha512-VwL+LAaPSxEkd3lU2xWbgEOtrM8oedmyhBqaVNmgKB+GvZlCy9rgaEc+y2on0wv+l0oSFqLtYD6dcC1eAedUaQ==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
@@ -2382,9 +2382,9 @@ packages:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001703
       postcss: 8.4.31
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
-      styled-jsx: 5.1.6(react@19.0.0)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+      styled-jsx: 5.1.6(react@19.1.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.2.4
       '@next/swc-darwin-x64': 15.2.4
@@ -2678,21 +2678,21 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /react-dom@19.0.0(react@19.0.0):
-    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
+  /react-dom@19.1.0(react@19.1.0):
+    resolution: {integrity: sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==}
     peerDependencies:
-      react: ^19.0.0
+      react: ^19.1.0
     dependencies:
-      react: 19.0.0
-      scheduler: 0.25.0
+      react: 19.1.0
+      scheduler: 0.26.0
     dev: false
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react@19.0.0:
-    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
+  /react@19.1.0:
+    resolution: {integrity: sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -2805,8 +2805,8 @@ packages:
       yoga-wasm-web: 0.3.3
     dev: false
 
-  /scheduler@0.25.0:
-    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
+  /scheduler@0.26.0:
+    resolution: {integrity: sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==}
     dev: false
 
   /semver@6.3.1:
@@ -3034,7 +3034,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-jsx@5.1.6(react@19.0.0):
+  /styled-jsx@5.1.6(react@19.1.0):
     resolution: {integrity: sha512-qSVyDTeMotdvQYoHWLNGwRFJHC+i+ZvdBRYosOFgC+Wg1vx4frN2/RG/NA7SYqqvKNLf39P2LSRA2pu6n0XYZA==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -3048,7 +3048,7 @@ packages:
         optional: true
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0
+      react: 19.1.0
     dev: false
 
   /sucrase@3.35.0:
