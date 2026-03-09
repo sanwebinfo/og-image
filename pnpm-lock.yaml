@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@vercel/og':
-    specifier: ^0.10.0
-    version: 0.10.0
+    specifier: ^0.11.1
+    version: 0.11.1
   next:
     specifier: 15.5.12
     version: 15.5.12(react-dom@19.2.4)(react@19.2.4)
@@ -645,7 +645,7 @@ packages:
       graphemer: 1.4.0
       ignore: 5.3.0
       natural-compare: 1.4.0
-      semver: 7.7.2
+      semver: 7.7.4
       ts-api-utils: 1.0.3(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -733,7 +733,7 @@ packages:
       debug: 4.4.0
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.7.2
+      semver: 7.7.4
       ts-api-utils: 1.0.3(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -755,7 +755,7 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.3
-      semver: 7.7.2
+      semver: 7.7.4
       ts-api-utils: 1.0.3(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -775,7 +775,7 @@ packages:
       '@typescript-eslint/types': 7.2.0
       '@typescript-eslint/typescript-estree': 7.2.0(typescript@5.9.3)
       eslint: 9.39.4
-      semver: 7.7.2
+      semver: 7.7.4
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -797,12 +797,12 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vercel/og@0.10.0:
-    resolution: {integrity: sha512-K4A/TQoIyIPmdQXj4nJqa8zzUnXg1SaJg4AsT59rsKMiXEFYFJPT3jMtt6cXzc7rxHA/6Q9I0GXH8M0NqxDwHA==}
+  /@vercel/og@0.11.1:
+    resolution: {integrity: sha512-02rXXRABFq1B03w3aNhcVfxkY+8Ba5QFi4ax0zS0oOiD/LL9WUd/LA7BjVPakrQmVhIBjuo2oBM5U25R9IuXMg==}
     engines: {node: '>=16'}
     dependencies:
       '@resvg/resvg-wasm': 2.4.0
-      satori: 0.21.0
+      satori: 0.25.0
     optionalDependencies:
       sharp: 0.34.5
     dev: false
@@ -2856,8 +2856,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /satori@0.21.0:
-    resolution: {integrity: sha512-PV5II6Z+gsFFLq4jp6mslt0ObNRzcTi5Xq+8JtJ3ReqBS9k4nF4ajqITFXygPZgRA6l5+22NYIS1WRTqTfDp5g==}
+  /satori@0.25.0:
+    resolution: {integrity: sha512-utINfLxrYrmSnLvxFT4ZwgwWa8KOjrz7ans32V5wItgHVmzESl/9i33nE38uG0miycab8hUqQtDlOpqrIpB/iw==}
     engines: {node: '>=16'}
     dependencies:
       '@shuding/opentype.js': 1.4.0-beta.0
@@ -2882,20 +2882,11 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@7.7.2:
-    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
-    engines: {node: '>=10'}
-    hasBin: true
-    requiresBuild: true
-    dev: true
-
   /semver@7.7.4:
     resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
     hasBin: true
     requiresBuild: true
-    dev: false
-    optional: true
 
   /set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
