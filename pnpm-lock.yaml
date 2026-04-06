@@ -18,8 +18,8 @@ dependencies:
     specifier: ^19.2.4
     version: 19.2.4(react@19.2.4)
   slugify:
-    specifier: ^1.6.8
-    version: 1.6.8
+    specifier: ^1.6.9
+    version: 1.6.9
 
 devDependencies:
   '@types/node':
@@ -2997,8 +2997,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /slugify@1.6.8:
-    resolution: {integrity: sha512-HVk9X1E0gz3mSpoi60h/saazLKXKaZThMLU3u/aNwoYn8/xQyX2MGxL0ui2eaokkD7tF+Zo+cKTHUbe1mmmGzA==}
+  /slugify@1.6.9:
+    resolution: {integrity: sha512-vZ7rfeehZui7wQs438JXBckYLkIIdfHOXsaVEUMyS5fHo1483l1bMdo0EDSWYclY0yZKFOipDy4KHuKs6ssvdg==}
     engines: {node: '>=8.0.0'}
     dev: false
 
