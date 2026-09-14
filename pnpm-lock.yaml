@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^19.2.7
     version: 19.2.7(@types/react@19.2.18)
   autoprefixer:
-    specifier: ^10.5.5
-    version: 10.5.5(postcss@8.5.28)
+    specifier: ^10.6.0
+    version: 10.6.0(postcss@8.5.28)
   eslint:
     specifier: ^9.39.5
     version: 9.39.5
@@ -975,8 +975,8 @@ packages:
     resolution: {integrity: sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==}
     dev: true
 
-  /autoprefixer@10.5.5(postcss@8.5.28):
-    resolution: {integrity: sha512-uiRYvQYe/nNSzBJ7OUnd2/TZVsAdob3blml44teEpee9Cc1f4rGZFewO+JT3Wo8mgFOSzNqes4FHZn/Qz8WOuw==}
+  /autoprefixer@10.6.0(postcss@8.5.28):
+    resolution: {integrity: sha512-A26d6qs9kqGgkmImIXMYvXTzqb4Qv7AVgpY1NXzr9Y659J8qHHnLOO/zE8ewIGFMprOolAoRAQYDgNryXIJKBw==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
